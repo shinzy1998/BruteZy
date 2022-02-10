@@ -4,6 +4,6 @@ import os
 if __name__ == "__main__":
    try:
        os.system("git pull")
-       __import__("shinzy-enc").Main()
+       __import__("shinzy24-enc").Main()
    except Exception as e:
        exit(str(e))
